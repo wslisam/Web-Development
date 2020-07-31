@@ -444,3 +444,155 @@ Find out more about deployment here:
 
 
   ```
+
+  ```
+  Last login: Sun Jul 19 22:18:54 on ttys000
+
+ ✔  23:02:23  wsli1998  ~ 
+                                                                          365
+
+ ✔  23:02:23  wsli1998  ~ 
+ npm install -g yo                                                        365
+npm WARN deprecated request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142
+npm WARN deprecated cross-spawn-async@2.2.5: cross-spawn no longer requires a build toolchain, use it instead
+npm WARN deprecated urix@0.1.0: Please see https://github.com/lydell/urix#deprecated
+npm WARN deprecated resolve-url@0.2.1: https://github.com/lydell/resolve-url#deprecated
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules
+npm ERR! code EACCES
+npm ERR! syscall access
+npm ERR! path /usr/local/lib/node_modules
+npm ERR! errno -13
+npm ERR! Error: EACCES: permission denied, access '/usr/local/lib/node_modules'
+npm ERR!  [Error: EACCES: permission denied, access '/usr/local/lib/node_modules'] {
+npm ERR!   errno: -13,
+npm ERR!   code: 'EACCES',
+npm ERR!   syscall: 'access',
+npm ERR!   path: '/usr/local/lib/node_modules'
+npm ERR! }
+npm ERR!
+npm ERR! The operation was rejected by your operating system.
+npm ERR! It is likely you do not have the permissions to access this file as the current user
+npm ERR!
+npm ERR! If you believe this might be a permissions issue, please double-check the
+npm ERR! permissions of the file and its containing directories, or try running
+npm ERR! the command again as root/Administrator.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/wsli1998/.npm/_logs/2020-07-28T15_03_20_852Z-debug.log
+
+ ↵ SIG(115)  23:03:20  wsli1998  ~ 
+ yo --version                                                             366
+zsh: command not found: yo
+
+ ↵ 127  23:04:08  wsli1998  ~ 
+ sudo npm install -g yo                                                   367
+Password:
+npm WARN deprecated request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142
+npm WARN deprecated cross-spawn-async@2.2.5: cross-spawn no longer requires a build toolchain, use it instead
+npm WARN deprecated resolve-url@0.2.1: https://github.com/lydell/resolve-url#deprecated
+npm WARN deprecated urix@0.1.0: Please see https://github.com/lydell/urix#deprecated
+/usr/local/bin/yo -> /usr/local/lib/node_modules/yo/lib/cli.js
+/usr/local/bin/yo-complete -> /usr/local/lib/node_modules/yo/lib/completion/index.js
+
+> core-js@3.6.5 postinstall /usr/local/lib/node_modules/yo/node_modules/core-js
+> node -e "try{require('./postinstall')}catch(e){}"
+
+Thank you for using core-js ( https://github.com/zloirock/core-js ) for polyfilling JavaScript standard library!
+
+The project needs your help! Please consider supporting of core-js on Open Collective or Patreon:
+> https://opencollective.com/core-js
+> https://www.patreon.com/zloirock
+
+Also, the author of core-js ( https://github.com/zloirock ) is looking for a good job -)
+
+
+> ejs@2.7.4 postinstall /usr/local/lib/node_modules/yo/node_modules/ejs
+> node ./postinstall.js
+
+Thank you for installing EJS: built with the Jake JavaScript build tool (https://jakejs.com/)
+
+
+> spawn-sync@1.0.15 postinstall /usr/local/lib/node_modules/yo/node_modules/spawn-sync
+> node postinstall
+
+
+> ejs@3.1.3 postinstall /usr/local/lib/node_modules/yo/node_modules/yeoman-generator/node_modules/ejs
+> node --harmony ./postinstall.js
+
+Thank you for installing EJS: built with the Jake JavaScript build tool (https://jakejs.com/)
+
+
+> yo@3.1.1 postinstall /usr/local/lib/node_modules/yo
+> yodoctor
+
+
+Yeoman Doctor
+Running sanity checks on your system
+
+✔ No .bowerrc file in home directory
+✔ Global configuration file is valid
+✔ NODE_PATH matches the npm root
+✔ No .yo-rc.json file in home directory
+✔ Node.js version
+✔ npm version
+✔ yo version
+
+Everything looks all right!
++ yo@3.1.1
+added 692 packages from 387 contributors in 27.268s
+
+
+   ╭────────────────────────────────────────────────────────────────╮
+   │                                                                │
+   │      New patch version of npm available! 6.14.5 → 6.14.7       │
+   │   Changelog: https://github.com/npm/cli/releases/tag/v6.14.7   │
+   │               Run npm install -g npm to update!                │
+   │                                                                │
+   ╰────────────────────────────────────────────────────────────────╯
+
+
+ ✔  23:04:52  wsli1998  ~ 
+                                                                          368
+  ```
+
+  ```
+   sudo npm install -g yo generator-code                                    370
+npm WARN deprecated resolve-url@0.2.1: https://github.com/lydell/resolve-url#deprecated
+npm WARN deprecated urix@0.1.0: Please see https://github.com/lydell/urix#deprecated
+npm WARN deprecated request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142
+npm WARN deprecated cross-spawn-async@2.2.5: cross-spawn no longer requires a build toolchain, use it instead
+/usr/local/bin/yo -> /usr/local/lib/node_modules/yo/lib/cli.js
+/usr/local/bin/yo-complete -> /usr/local/lib/node_modules/yo/lib/completion/index.js
+
+> ejs@3.1.3 postinstall /usr/local/lib/node_modules/generator-code/node_modules/ejs
+> node --harmony ./postinstall.js
+
+Thank you for installing EJS: built with the Jake JavaScript build tool (https://jakejs.com/)
+
+
+> ejs@2.7.4 postinstall /usr/local/lib/node_modules/generator-code/node_modules/yeoman-environment/node_modules/ejs
+> node ./postinstall.js
+
+Thank you for installing EJS: built with the Jake JavaScript build tool (https://jakejs.com/)
+
+
+> yo@3.1.1 postinstall /usr/local/lib/node_modules/yo
+> yodoctor
+
+
+Yeoman Doctor
+Running sanity checks on your system
+
+✔ No .bowerrc file in home directory
+✔ Global configuration file is valid
+✔ NODE_PATH matches the npm root
+✔ No .yo-rc.json file in home directory
+✔ Node.js version
+✔ npm version
+✔ yo version
+
+Everything looks all right!
++ yo@3.1.1
++ generator-code@1.2.19
+added 471 packages from 353 contributors and updated 1 package in 33.951s
+  ```
