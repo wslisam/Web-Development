@@ -23,9 +23,21 @@ html {
 }
 
 body {
-    width: 600px;
-    margin: 0 auto;
-    background-color: #659cb6;
-    padding: 0 20px 20px 20px;
-    border: 5px solid black;
-  }
+  width: 800px;
+  margin: 0 auto;
+  background-color: #659cb6;
+  padding: 0 20px 20px 20px;
+  border: 10px solid rgb(96, 130, 146);
+}
+
+h1 {
+  margin: 0;
+  padding: 20px 0;
+  color: #87b672;
+  text-shadow: 10px 10px 7px rgb(31, 13, 34);
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
