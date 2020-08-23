@@ -1,5 +1,8 @@
-var msg = "Hello World";
-console.log(msg);
+var server = require("./samserver.js");  // why don't need .js
+//File is a CommonJS module; it may be converted to an ES6 module.
+server.start();
+// var msg = "Hello World";
+// console.log(msg);
 
 // let canvas = document.querySelector("#mycanvas");
 // let ctx = canvas.getContext("2d");
